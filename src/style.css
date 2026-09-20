@@ -4,6 +4,10 @@
   --blue-color: #00acdc;
 }
 
+html {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: Roboto, sans-serif;
@@ -16,7 +20,9 @@ body {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  height: 60px;
   padding: 0 50px;
+  box-sizing: border-box;
   background-color: #fff;
 }
 
